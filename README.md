@@ -29,25 +29,6 @@ This architecture represents the full flow:
 - db-dtypes  
 - Service Account Authentication  
 
-## 📂 **Project Structure**
-
-etl-pipeline-datafusion-airflow/
-│
-├── extract.py                # Generate employee data and upload to GCS
-├── load_to_bigquery.py       # Load CSV into BigQuery + masked view
-├── bar_chart.py              # Visualization (department bar chart)
-│
-├── employee_data.csv         # Synthetic CSV generated each run
-├── employees_by_department.png
-│
-├── assets/                   # Architecture + chart images
-│   ├── architecture.PNG
-│   ├── tech_stack.PNG
-│   └── employees_by_department.png
-│
-├── .gitignore                # Prevents committing service_account.json
-└── README.md                 # Project documentation
-
 ## 🚀 **Pipeline Overview**
 
 ### **1. Extract & Generate Data**

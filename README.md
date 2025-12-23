@@ -67,14 +67,8 @@ python bar_chart.py
 - Passwords hidden
 - Salaries converted to bands
 
-## 📊 **Dashboard (Optional)**
-Use Looker Studio (BigQuery connector).
-
 ## 🧱 **Potential Enhancements**
 - Airflow DAG
 - dbt transformations
 - Logging
 - Partitioned tables
-
-## 🏁 **Summary**
-A clean, interview-ready cloud data engineering pipeline.

@@ -1,6 +1,7 @@
 # **ETL Pipeline: Employee Data → GCS → BigQuery → Masked View → Visualization**
 
 This project is a complete end-to-end **cloud-based ETL pipeline** built with Python, Google Cloud Storage, BigQuery, and basic data visualization.  
+
 It simulates employee data, securely processes it, loads it into BigQuery, masks sensitive fields, and generates analytic insights.
 
 ## 📐 **System Architecture**
